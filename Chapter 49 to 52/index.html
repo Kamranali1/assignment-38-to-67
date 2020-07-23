@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form">
+        <ul>
+         <li>
+           <label for="name">Name:</label>
+           <input type="text" id="name" name="user_name">
+         </li>
+         <li>
+           <label for="mail">E-mail:</label>
+           <input type="text" id="mail" name="user_email">
+         </li>
+         <li>
+           <label for="Password">Password :</label>
+           <input type="password" id="Password" name="user_Password">
+         </li>
+         <li> <button class="button " id="Btn" onclick="btn()"> Sign Up</button></li>
+        </ul>
+      </div>
+
+       <div class="div" >
+           <p > Name: <span id="para5"></span> </p>
+           <p > E-mail: <span id="para1"></span> </p>
+           <p > Password: <span id="para2"></span> </p>
+       </div>
+
+
+
+       <div class="div1">
+         <img class="img" src="mob1.jfif" width="140px" alt="">
+          <h1 class="h1">item details</h1>  
+             <p id="para" class="paragarph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis nostrum accusamus similiq <a href="javascipt:void(0) " onclick="read()" >Read more </a> </p>
+       </div>
+
+
+       <table id="myTable" class="table">
+        <h1>Task 3 </h1>
+       <tr>
+           <td> Index </td>
+           <td> Name </td>
+           <td> Class</td>
+       </tr>
+       <tr >
+           <td> 0 </td>
+           <td id="td1"> Jhone </td>
+           <td id="td2"> 10</td>
+           <td><button onclick="change()"> Edit </button> </td>
+           <td><Button onclick="deleteRow(this)"> Delete</Button></td>
+       </tr>
+       <tr >
+           <td> 1 </td>
+           <td id="td3" > doe </td>
+           <td id="td4" > 9</td>
+           <td><button onclick="change1()" > Edit </button> </td>
+           <td><Button onclick="deleteRow(this)"> Delete</Button></td>
+       </tr>
+       <tr >
+           <td> 2 </td>
+           <td id="td5"> mark </td>
+           <td id="td6" > 9</td>
+           <td><button onclick="change2()"> Edit </button> </td>
+           <td><Button onclick="deleteRow(this)"> Delete</Button></td>
+       </tr>
+       <tr >
+           <td> 3 </td>
+           <td id="td7"> james </td>
+           <td id="td8"> 10</td>
+           <td><button onclick="change3()"> Edit </button> </td>
+           <td><Button onclick="deleteRow(this)"> Delete</Button></td>
+       </tr>
+       <tr>
+           <td> 4 </td>
+           <td id="td9" > Kamran </td>
+           <td id="td10">  11</td>
+           <td><button onclick="change4()" >  Edit </button> </td>
+           <td><Button onclick="deleteRow(this)"> Delete</Button></td>
+       </tr>
+       <tr>
+           <td> 5 </td>
+           <td id="td11">  Ali </td>
+           <td id="td12"> 8</td>
+           <td><button onclick="change5()"> Edit </button> </td>
+           <td><Button onclick="deleteRow(this)"> Delete</Button></td>
+       </tr>
+       <tr >
+           <td  > 6 </td>
+           <td id="td13"> kashan </td>
+           <td id="td14"> 11</td>
+           <td><button onclick="change6()" > Edit </button> </td>
+           <td><Button onclick="deleteRow(this)"> Delete</Button></td>
+       </tr>
+       <tr >
+           <td > 7 </td>
+           <td  id="td15" >  Adil</td>
+           <td id="td16"></td> 12</td>
+           <td><button onclick="change7()"> Edit </button> </td>
+           <td><Button onclick="deleteRow(this)"> Delete</Button></td>
+       </tr>
+       <tr >
+           <td> 8 </td>
+           <td id="td17" > Zohaib </td>
+           <td id="td18"> 9</td>
+           <td><button onclick="change8()"> Edit </button> </td>
+           <td><Button onclick="deleteRow(this)"> Delete</Button></td>
+       </tr>
+       <tr  >
+           <td> 9 </td>
+           <td id="td19">  kareem </td>
+           <td id="td20" > 10</td>
+           <td><button onclick="change9()"> Edit </button> </td>
+           <td><Button onclick="deleteRow(this)"> Delete</Button></td>
+       </tr>
+   </table>
+
+
+       <script src="app.js"></script>
+</body>
+</html>

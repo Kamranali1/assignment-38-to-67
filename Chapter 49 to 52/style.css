@@ -1,0 +1,82 @@
+.form,.div {
+    margin: 0 auto;
+    width: 400px;
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+    background-color: rgba(3, 145, 221, 0.53);
+    box-shadow: 2px 2px 2px rgb(15, 68, 121);
+    margin-top: 5px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 10px;
+  }
+  
+  form li + li {
+    margin-top: 1m;
+  }
+  
+  label {
+   
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+  }
+  
+  input, 
+  textarea {
+   
+    font: 1em sans-serif;
+  
+    width: 300px;
+    box-sizing: border-box;
+   margin-top: 10px;
+    border: 1px solid #999;
+  }
+  
+  input:focus, 
+  textarea:focus {
+    border-color: #000;
+  }
+  
+  textarea {
+    vertical-align: top;
+    height: 5em;
+  }
+  
+  .button {
+    Margin-left: 180px; 
+    background-color: rgba(6, 33, 102, 0.312);
+    box-shadow: 2px 2px 7px rgb(9, 73, 119);
+  }
+  
+  button {
+    
+    margin-left: .5em;
+  }
+  .div1{
+    background-color: rgb(8, 111, 151);
+    height:330px;
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 30px;
+    box-shadow: 3px 2px 2px black;
+  }
+  .img{
+    margin-left: 180px;
+    margin-top: 10px;
+    box-shadow:2px 2px 2px  black;
+  }
+  .h1{
+    text-align: center;
+  }
+  .paragraph{
+    text-align: center;
+  }
+  .table{
+    border: 1px solid black;
+  }
